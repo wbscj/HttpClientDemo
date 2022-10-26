@@ -1,0 +1,15 @@
+[
+  {
+    "description": "测试 get",
+    "request": {
+      "uri": "/get",
+      "method": "get"
+    },
+    "response": {
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "text": "测试 get 成功！"
+    }
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "description": "这是第一个moco操作,格式要写正确，中括号、大括号一定要有，description是描述，request是请求，uri是请求路径，response是返回结果，text是返回的是文本类型内容",
+    "request": {
+      "uri": "/demo1"
+    },
+    "response": {
+      "text": "this is the first moco demo \n aaaaaa"
+    }
+  },
+
+
+  {"description":"这是第二个moco操作，模拟返回值为中文",
+    "request":{
+      "uri":"/demo2"
+    },
+    "response":{
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "text":"这是第二个demo"
+    }
+
+  },
+
+  {
+    "description": "这是第三个moco操作，模拟get 有请求参数",
+    "request": {
+      "uri": "/demo3",
+      "method": "get",
+      "queries": {
+        "name": "zhangsan",
+        "age": "20"
+      }
+    },
+
+    "response": {
+      "text": "这是带参数的get请求",
+      "headers": {
+        "Content-Type":"text/html;charset=gbk"
+      }
+    }
+  },
+
+  {
+    "description": "这是post请求",
+    "request": {
+      "uri": "/post1"
+    },
+    "response": {
+      "text": "这是不带参数的post请求",
+      "headers": {
+        "Content-Type":"text/html;charset=gbk"
+      }
+    }
+  },
+  {
+    "description": "这是post请求,有请求参数",
+    "request": {
+      "uri": "/post2",
+      "method": "post",
+      "forms": {
+        "name": "qinzhenxia",
+        "age": "28"
+      }
+    },
+    "response": {
+      "text": "这是一个带表单参数的post请求",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  },
+  {
+    "description":"这是一个带参数的post请求，请求参数格式是key:value，不能使用queries，要使用forms",
+    "request":{
+      "uri":"/postwithparam",
+      "method":"post",
+      "forms":{
+        "name":"qinzhenxia",
+        "age":"28"
+      }},
+    "response":{
+      "text":"这是一个带表单参数的post请求",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
+    }
+  },
+  {
+    "description": "这是post请求,有请求参数,带cookie",
+    "request": {
+      "uri": "/post/cookie",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "forms": {
+        "name": "qinzhenxia",
+        "age": "28"
+      }
+    },
+    "response": {
+      "text": "这是一个带表单参数的post请求",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  },
+  {
+    "description": "这是get请求,返回cookie",
+    "request": {
+      "uri": "/getResponseCookie",
+      "method": "get"
+    },
+    "response": {
+      "text": "这是get请求，返回cookie",
+      "cookies": {
+        "login": "true"
+      }
+    }
+  },
+  {
+    "description": "这是一个get请求，需要带cookie 访问",
+    "request": {
+      "uri": "/getwithcookie",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "text": "带着cookie 访问成功"
+    }
+  },
+  {
+    "description": "这是一个post请求，需要带cookie 和参数访问",
+    "request": {
+      "uri": "/postwithcookie",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+        "name": "zhangsan",
+        "age": "20"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "name": "lisi",
+        "age": 20
+      }
+    }
+  },
+
+  {
+    "description": "jmeter测试用",
+    "request": {
+      "method": "get",
+      "uri": "/get/jmeter"
+    },
+    "response": {
+      "json": {
+          "data":  {
+            "cardApplyId": "1" ,
+            "ad": "12312321321321",
+            "msg": "成功" ,
+            "respCode": "1000" ,
+            "smsVerificationResult": "1" ,
+            "success": true
+          },
+          "message": "请求成功" ,
+          "status": "000000"
+      }
+    }
+  },
+  {
+    "description": "jmeter测试用",
+    "request": {
+      "method": "get",
+      "uri": "/get/jmeter2"
+    },
+    "response": {
+      "json": {"data":{"msg":"服务器错误","respCode":"1003","success":false},"message":"服务器错误","status":"000001"}
+    }
+  }
+]
+
+
