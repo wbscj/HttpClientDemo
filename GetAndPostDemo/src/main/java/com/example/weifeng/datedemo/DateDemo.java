@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.Iterator;
 
-public class a {
+public class DateDemo {
 
     public static void main(String[] args) {
         BigDecimal a = new BigDecimal(0.22333);
