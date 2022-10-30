@@ -11,5 +11,25 @@
       },
       "text": "测试 get 成功！"
     }
+  },
+
+
+  {
+    "description": "测试 post ",
+    "request": {
+      "uri": "/post",
+      "method": "post",
+      "json": {
+        "name": "weifeng",
+        "age": 20
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "message": "请求成功！",
+        "date":"YYY-MM-DD"
+      }
+    }
   }
 ]
