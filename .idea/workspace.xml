@@ -5,26 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fff5f40-3ac8-4fd8-9073-7a40c630613f" name="变更" comment="添加moco，并运行一次get请求">
-      <change afterPath="$PROJECT_DIR$/mock/mock.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_73.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_73.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GetAndPostDemo/src/main/java/com/example/weifeng/datedemo/a.java" beforeDir="false" afterPath="$PROJECT_DIR$/GetAndPostDemo/src/main/java/com/example/weifeng/datedemo/DateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetAndPostDemo/GetAndPostDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GetAndPostDemo/GetAndPostDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetAndPostDemo/src/main/java/com/example/weifeng/getdemo/GetDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/GetAndPostDemo/src/main/java/com/example/weifeng/getdemo/GetDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetAndPostDemo/src/main/java/com/example/weifeng/postdemo/PostDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/GetAndPostDemo/src/main/java/com/example/weifeng/postdemo/PostDemo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HttpclientDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HttpclientDemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moco/GetAndPostDemo.json" beforeDir="false" afterPath="$PROJECT_DIR$/mock/GetAndPostDemo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moco/demo1.json" beforeDir="false" afterPath="$PROJECT_DIR$/mock/demo1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moco/moco-runner-0.11.0-standalone.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mock/moco-runner-0.11.0-standalone.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moco/moco.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moco/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mock/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock/GetAndPostDemo.json" beforeDir="false" afterPath="$PROJECT_DIR$/mock/GetAndPostDemo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock/mock.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mock/mock.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +38,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\apache-maven-3.6.1\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../apache-maven-3.6.1" />
         <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -78,7 +72,18 @@
       <recent name="com.example.weifeng" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.E:/JAVA/HttpclientDemo">
+  <component name="RunManager" selected="应用程序.PostDemo1">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GetDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.weifeng.getdemo.GetDemo1" />
       <module name="GetAndPostDemo" />
@@ -105,13 +110,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="PostDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.weifeng.postdemo.PostDemo1" />
+      <module name="GetAndPostDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.weifeng.postdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,57 +143,22 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.PostDemo1" />
+        <item itemvalue="应用程序.GetDemo1" />
         <item itemvalue="Gradle.E:/JAVA/HttpclientDemo" />
         <item itemvalue="应用程序.HelloWord" />
-        <item itemvalue="应用程序.GetDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -201,6 +173,7 @@
       <workItem from="1666608734051" duration="1395000" />
       <workItem from="1666757851406" duration="7983000" />
       <workItem from="1666840436539" duration="2357000" />
+      <workItem from="1667200705051" duration="8336000" />
     </task>
     <task id="LOCAL-00001" summary="添加moco，并运行一次get请求">
       <created>1666759202836</created>
@@ -226,7 +199,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="HEAD" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>

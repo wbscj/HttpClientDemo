@@ -22,7 +22,7 @@ public class GetDemo1 {
 //输出具体内容
         System.out.println(EntityUtils.toString(execute.getEntity(), "UTF-8"));
 
-
+        aDefault.close();
     }
 
 

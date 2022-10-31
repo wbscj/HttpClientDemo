@@ -15,7 +15,7 @@
 
 
   {
-    "description": "测试 post ",
+    "description": "测试 post 带json请求",
     "request": {
       "uri": "/post",
       "method": "post",
@@ -25,11 +25,14 @@
       }
     },
     "response": {
-      "status": 200,
-      "json": {
-        "message": "请求成功！",
-        "date":"YYY-MM-DD"
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "json":{
+        "message": "post 请求成功!!!",
+        "start": 200
       }
+
     }
   }
 ]
