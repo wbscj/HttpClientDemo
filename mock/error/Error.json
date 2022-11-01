@@ -1,0 +1,11 @@
+[
+  {
+    "description": "为所有没有匹配到的地址报错",
+    "response": {
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "text": "非常抱歉，没有对应url!!!"
+    }
+  }
+]

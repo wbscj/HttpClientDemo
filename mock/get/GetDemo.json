@@ -1,0 +1,35 @@
+[
+  {
+    "description": "测试 get",
+    "request": {
+      "uri": "/demo1",
+      "method": "get"
+    },
+    "response": {
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "text": "测试 get 成功！"
+    }
+  },
+
+  {
+    "description": "测试 get,返回大量数据",
+    "request": {
+      "uri": "/responsejson",
+      "method": "get"
+    },
+    "response": {
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "file":"/json/GetDemoJson.json"
+    }
+  }
+  
+
+
+
+
+
+]

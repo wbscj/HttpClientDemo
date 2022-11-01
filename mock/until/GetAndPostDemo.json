@@ -1,0 +1,60 @@
+[
+  {
+    "description": "测试 get",
+    "request": {
+      "uri": "/get",
+      "method": "get"
+    },
+    "response": {
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "text": "测试 get 成功！"
+    }
+  },
+  {
+    "description": "get 返回图片",
+    "request": {
+      "uri": "/get/picture",
+      "method": "get"
+    },
+    "response": {
+      "headers": {
+        "Content-Type":"text/html;application/json;charset=gbk"
+      },
+      "text": "get  返回图片,https://img2.baidu.com/it/u=317484140,3889581037&fm=253&fmt=auto&app=138&f=JPEG?w=499&h=333"
+
+
+    }
+  },
+  {
+    "description": "重定向",
+    "request": {
+      "uri":"/get/cdx",
+      "method": "get"
+    },
+    "redirectTo":"http://www.baidu.com"
+  },
+
+  {
+    "description": "测试 post 带json请求",
+    "request": {
+      "uri": "/post",
+      "method": "post",
+      "json": {
+        "name": "weifeng",
+        "age": 20
+      }
+    },
+    "response": {
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "json":{
+        "message": "post 请求成功!!!",
+        "start": 200
+      }
+
+    }
+  }
+]
