@@ -3,13 +3,18 @@
     "description": "测试 get",
     "request": {
       "uri": "/demo1",
-      "method": "get"
+      "method": "get",
+      "json": {
+        "aaa": 1
+      }
     },
     "response": {
       "headers":{
         "Content-Type":"text/html;charset=gbk"
       },
-      "text": "测试 get 成功！"
+      "text":{
+        "template": "${req.json['aaa']}"
+      }
     }
   },
 
@@ -26,7 +31,7 @@
       "file":"/json/GetDemoJson.json"
     }
   }
-  
+
 
 
 
