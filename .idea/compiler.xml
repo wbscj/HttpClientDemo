@@ -16,4 +16,5 @@
       <module name="mock" target="8" />
     </bytecodeTargetLevel>
   </component>
+
 </project>
