@@ -30,5 +30,6 @@
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.11" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpmime:4.5.8" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.73" level="project" />
+
   </component>
 </module>
