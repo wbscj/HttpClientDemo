@@ -22,6 +22,16 @@
     "response": {
       "headers": {
         "Content-Type": "text/html;charset=gbk"
+      }
+    },
+    "file_root": "./post",
+    "include": "PostDemo.json"
+  },
+
+  {
+    "response": {
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
       },
       "latency": {
         "duration": 1,

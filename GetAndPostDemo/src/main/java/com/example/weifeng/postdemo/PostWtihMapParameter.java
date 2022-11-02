@@ -19,15 +19,8 @@ public class PostWtihMapParameter {
         CloseableHttpClient aDefault = HttpClients.createDefault();
         HttpPost httpPost = new HttpPost("http://localhost:8000/post");
 
-        HashMap<String, Object> StringHashMap = new HashMap<>();
-        StringHashMap.put("name","weifeng");
-        StringHashMap.put("age",20);
-        Iterator<String> iterator = StringHashMap.keySet().iterator();
-        while (iterator.hasNext()){
-            String next = iterator.next();
-            Object o = StringHashMap.get(next);
-//            httpPost.setEntity();
-        }
+        String s = "";
+//        httpPost.setEntity();
 
         CloseableHttpResponse execute = aDefault.execute(httpPost);
 
