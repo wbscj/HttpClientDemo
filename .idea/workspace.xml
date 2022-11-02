@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fff5f40-3ac8-4fd8-9073-7a40c630613f" name="变更" comment="运行第一个post">
-      <change afterPath="$PROJECT_DIR$/mock/post/PostDemo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock/template.json" afterDir="false" />
+    <list default="true" id="8fff5f40-3ac8-4fd8-9073-7a40c630613f" name="变更" comment="post 请求forms">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mock/get/GetDemo.json" beforeDir="false" afterPath="$PROJECT_DIR$/mock/get/GetDemo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mock/get/json/GetDemoJson.json" beforeDir="false" afterPath="$PROJECT_DIR$/mock/get/json/GetDemoJson.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetAndPostDemo/GetAndPostDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GetAndPostDemo/GetAndPostDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetAndPostDemo/target/classes/com/example/weifeng/postdemo/PostWtihMapParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpclientDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HttpclientDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock/mock.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mock/mock.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +48,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/mock" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -61,6 +63,7 @@
       <recent name="E:\JAVA\HttpclientDemo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JAVA\HttpClientDemo\mock" />
       <recent name="E:\JAVA\HttpClientDemo\mock\until" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -68,7 +71,7 @@
       <recent name="com.example.weifeng" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.PostWithJsonParameter">
+  <component name="RunManager" selected="应用程序.PostWithForms">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -93,12 +96,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.weifeng.HelloWord" />
+    <configuration name="GetPicture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.weifeng.picture.GetPicture" />
       <module name="GetAndPostDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.weifeng.*" />
+          <option name="PATTERN" value="com.example.weifeng.picture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostWithForms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.weifeng.postdemo.PostWithForms" />
+      <module name="GetAndPostDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.weifeng.postdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,25 +148,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E:/JAVA/HttpclientDemo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.PostWithForms" />
+        <item itemvalue="应用程序.GetPicture" />
         <item itemvalue="应用程序.PostWithJsonParameter" />
         <item itemvalue="应用程序.PostWtihMapParameter" />
         <item itemvalue="应用程序.GetDemo1" />
-        <item itemvalue="Gradle.E:/JAVA/HttpclientDemo" />
-        <item itemvalue="应用程序.HelloWord" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +180,10 @@
       <workItem from="1666608734051" duration="1395000" />
       <workItem from="1666757851406" duration="7983000" />
       <workItem from="1666840436539" duration="2357000" />
-      <workItem from="1667200705051" duration="26544000" />
+      <workItem from="1667200705051" duration="36110000" />
+      <workItem from="1667370706402" duration="4706000" />
+      <workItem from="1667377785073" duration="577000" />
+      <workItem from="1667378380254" duration="224000" />
     </task>
     <task id="LOCAL-00001" summary="添加moco，并运行一次get请求">
       <created>1666759202836</created>
@@ -199,7 +199,28 @@
       <option name="project" value="LOCAL" />
       <updated>1667225644159</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="使用 template返回参数，但是在请求的url中需要加参数，比如?aaa=1111111">
+      <created>1667356955113</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667356955113</updated>
+    </task>
+    <task id="LOCAL-00004" summary="下载图片到本地">
+      <created>1667367107781</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667367107781</updated>
+    </task>
+    <task id="LOCAL-00005" summary="post 请求forms">
+      <created>1667378249150</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667378249151</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +232,11 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -227,11 +253,29 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加moco，并运行一次get请求" />
     <MESSAGE value="运行第一个post" />
-    <option name="LAST_COMMIT_MESSAGE" value="运行第一个post" />
+    <MESSAGE value="使用 template返回参数，但是在请求的url中需要加参数，比如?aaa=1111111" />
+    <MESSAGE value="下载图片到本地" />
+    <MESSAGE value="post 请求forms" />
+    <option name="LAST_COMMIT_MESSAGE" value="post 请求forms" />
   </component>
 </project>
