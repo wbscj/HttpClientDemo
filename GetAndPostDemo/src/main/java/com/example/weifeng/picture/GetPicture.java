@@ -14,6 +14,7 @@ public class GetPicture {
 
     public static void main(String[] args) throws IOException {
         String url = "https://img1.baidu.com/it/u=2178800524,692502547&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=324";
+//        String url = "https://img1.baidu.com/it/u=4050690376,728180688&fm=253&fmt=auto&app=138&f=JPEG?w=894&h=500";
         getpicture(url);
     }
     public static void getpicture(String url) throws IOException {

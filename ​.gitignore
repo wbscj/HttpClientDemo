@@ -21,3 +21,4 @@ HttpclientDemo/
 *.iml
 *.ipr
 /out/
+/.idea/
