@@ -1,0 +1,51 @@
+[
+  {
+    "response": {
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Max-Age": "3600",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Credentials": "true",
+        "Content-Type": "text/html;charset=gbk"
+      },
+      "latency": {
+        "duration": 1,
+        "unit": "second"
+      }
+    },
+    "file_root": "./get",
+    "include": "GetDemo.json"
+  },
+
+
+
+
+  {
+    "response": {
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    },
+    "file_root": "./post",
+    "include": "PostDemo.json"
+  },
+
+
+
+
+
+  {
+    "response": {
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      },
+      "latency": {
+        "duration": 1,
+        "unit": "second"
+      }
+    },
+    "file_root": "./error",
+    "include": "Error.json"
+  }
+]

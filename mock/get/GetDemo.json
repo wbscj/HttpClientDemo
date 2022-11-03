@@ -1,0 +1,37 @@
+[
+  {
+    "description": "测试 get",
+    "request": {
+      "uri": "/demo1",
+      "method": "get"
+    },
+    "response": {
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "text":{
+        "template": "${req.queries['aaa']}"
+      }
+    }
+  },
+
+  {
+    "description": "测试 get,返回大量数据",
+    "request": {
+      "uri": "/responsejson",
+      "method": "get"
+    },
+    "response": {
+      "headers":{
+        "Content-Type":"text/html;charset=utf-8"
+      },
+      "file":"/json/GetDemoJson.json"
+    }
+  }
+
+
+
+
+
+
+]
